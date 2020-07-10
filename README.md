@@ -2,17 +2,16 @@
 Just a Sample project for learning Flask.
 
 ## Installation
-Use the packet manager [pip](https://pip.pypa.io/en/stable/) to install [pipenv](https://pypi.org/project/pipenv/)
-
-```bash
-pip install pipenv
-pipenv install
-```
-
 Clone/Create project repository
 ```bash
 git clone https://github.com/PratikPatekar/URL-Shortener/
 cd URL-shortener
+```
+
+Use the packet manager [pip](https://pip.pypa.io/en/stable/) to install [pipenv](https://pypi.org/project/pipenv/)
+```bash
+pip install pipenv
+pipenv install
 ```
 
 Activate Pipenv shell using 
