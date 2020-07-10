@@ -1,5 +1,5 @@
 # URL-Shortener using Flask
-Just a Sample project for learning Flask.
+Just a Sample project created while learning Flask.
 
 ## Installation
 Clone/Create project repository
