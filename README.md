@@ -36,4 +36,4 @@ gunicorn "urlshort:create_app()" -b 0.0.0.0
 ```
 
 ## Contribution
-Pull Requests are Welcome.
+Pull Requests are Welcome :)
