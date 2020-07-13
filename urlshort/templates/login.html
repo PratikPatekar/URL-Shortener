@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="card-deck mb-1">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal text-center">Login</h4>
+            </div>
+            <div class="card-body">
+              <form action="home" name="login" method="post">
+                <input type="email" class="form-control" name="mail" value="" placeholder="Email" required>
+                <br>
+                <input type="password" class="form-control" name="pass" value="" placeholder ="Password" required>
+                <br>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -63,3 +63,14 @@ def page_not_found(error):
 @bp.route('/api')
 def session_api():
     return jsonify(list(session.keys()))
+
+#function to display Login Page
+@bp.route('/login',methods=['GET','POST'])
+def login():
+    return render_template('login.html')
+
+#function to display Registration Page
+@bp.route('/register')
+def register():
+    return render_template('register.html')
+
