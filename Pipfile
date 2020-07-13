@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
+python-dotenv = "*"
+flask-pymongo = "*"
 
 [requires]
 python_version = "3.6"
