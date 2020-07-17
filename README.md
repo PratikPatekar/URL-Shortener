@@ -36,4 +36,6 @@ gunicorn "urlshort:create_app()" -b 0.0.0.0
 ```
 
 ## Contribution
-Pull Requests are Welcome :bowtie: :octocat:
+Pull Requests are Welcome :bowtie: 
+
+#### Author [Pratik Patekar](https://github.com/PratikPatekar/) :octocat:
